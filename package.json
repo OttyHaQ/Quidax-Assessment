@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.6"
+  },
+  "devDependencies": {
+    "cypress-fill-command": "^1.0.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true
+    },
+    "step_definitions": "cypress/e2e",
+    "nonGlobalStepDefinitions": false
+  }
+}

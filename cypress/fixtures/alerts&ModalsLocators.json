@@ -1,0 +1,68 @@
+{
+    "//": "MENU",
+    "alerts_Modals": "#treemenu > li > ul > li:nth-child(5) > a",
+    "bootstrap_alerts": "#treemenu > li > ul > li:nth-child(5) > ul > li:nth-child(1) > a",
+    
+    "//": "BUTTONS",
+    "auto_success_btn": "#autoclosable-btn-success",
+    "normal_success_btn": "#normal-btn-success",
+    "auto_warning_btn": "#autoclosable-btn-warning",
+    "normal_warning_btn": "#normal-btn-warning",
+    "auto_danger_btn": "#autoclosable-btn-danger",
+    "normal_danger_btn": "#normal-btn-danger",
+    "auto_info_btn": "#autoclosable-btn-info",
+    "normal_info_btn": "#normal-btn-info",
+
+    "//": "ALERTS",
+    "auto_success_alert": ".alert.alert-success.alert-autocloseable-success",
+    "normal_success_alert": ".alert.alert-success.alert-normal-success",
+    "auto_warning_alert": ".alert.alert-warning.alert-autocloseable-warning",
+    "normal_warning_alert": ".alert.alert-warning.alert-normal-warning",
+    "auto_danger_alert": ".alert.alert-danger.alert-autocloseable-danger",
+    "normal_danger_alert": ".alert.alert-danger.alert-normal-danger",
+    "auto_info_alert": ".alert.alert-info.alert-autocloseable-info",
+    "normal_info_alert": ".alert.alert-info.alert-normal-info",
+
+    "//": "ALERT TEXTS",
+    "auto_success_text": "I'm an autocloseable success  message. I will hide in 5 seconds.",
+    "normal_success_text": "I'm a normal success message. To close use  the appropriate button.",   
+    "auto_warning_text": "I'm an autocloseable warning message. I will hide in 3 seconds.",
+    "normal_warning_text": "I'm a normal warning message. To close use  the appropriate button.",   
+    "auto_danger_text": "I'm an autocloseable danger message. I will hide in 5 seconds.",
+    "normal_danger_text": "I'm a normal danger message. To close use  the appropriate button.",
+    "auto_info_text": "I'm an autocloseable info message. I will hide in 6 seconds.",
+    "normal_info_text": "I'm a normal info message. To close use  the appropriate button.",
+
+    "//": "CLOSE ALERTS",
+    "close_normal_success": "div[class='alert alert-success alert-normal-success'] button[type='button']",
+    "close_normal_warning": "div[class='alert alert-warning alert-normal-warning'] button[type='button']",
+    "close_normal_danger": "div[class='alert alert-danger alert-normal-danger'] button[type='button']",
+    "close_normal_info": "div[class='alert alert-info alert-normal-info'] button[type='button']",
+
+    "//": "MODALS",
+    "bootstrap_modals": "#treemenu > li > ul > li:nth-child(5) > ul > li:nth-child(2) > a",
+    "single_modal": "#myModal0 > div > div",
+    "first_modal": "#myModal > div > div",
+    "second_modal": "#myModal2 > div > div",
+    
+    "//": "MODAL BUTTONS",
+    "single_modal_btn": "body > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+    "cancel_single_modal_btn": "div[id='myModal0'] a[class='btn']",
+    "single_modal_save_btn": "div[id='myModal0'] a[class='btn btn-primary']",
+    "multi_modal_btn": "a[href='#myModal']",
+    "multi_modal_btn2": "a[href='#myModal2']",
+    "second_close_btn": "div[id='myModal2'] a[class='btn']",
+    "second_save_btn": "div[id='myModal2'] a[class='btn btn-primary']",
+    "first_close_btn": "div[id='myModal'] a[class='btn']",
+    "first_save_btn": "div[id='myModal'] div[class='modal-footer'] a[class='btn btn-primary']",
+    
+    "//": "MODAL HEADERS",
+    "multi_modal_2_header": "#myModal2 > div > div > div.modal-header",
+    "single_modal_header": "div[id='myModal0'] h4[class='modal-title']",
+    "multi_modal_header": "#myModal > div > div > div.modal-header"
+   
+
+
+
+
+}

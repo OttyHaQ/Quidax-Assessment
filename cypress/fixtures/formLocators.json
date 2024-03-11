@@ -1,0 +1,18 @@
+{
+  "//": "LOCATORS",
+  "input_forms": "#treemenu > li > ul > li:nth-child(1) > a",
+  "simple_form_demo": "#treemenu > li > ul > li:nth-child(1) > ul > li:nth-child(1) > a",
+  "enter_message_field": "[placeholder='Please enter your Message']",
+  "show_message_btn": "#get-input > button",
+  "message_display": "#display",
+  "enter_A": "#value1",
+  "enter_B": "#value2",
+  "get_total_btn": "#gettotal > button",
+  "total": "#displayvalue",
+
+  "//": "TEXTS",
+  "message": "Quidax is the best crypto platform",
+  "value_A": "3",
+  "value_B": "5",
+  "sum": "8"
+}
