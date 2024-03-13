@@ -44,3 +44,9 @@ After test execution is completed, Cypress Test Runner will display the results 
 
 Issues:
 The test for selecting multiple options from the dropdown list and displaying all selected will fail because of a bug in the system. It returns only one selected item instead of all selected.
+
+Notes:
+Used Fixtures for my POM instead of Pages, to minimize the number of imports in the spec files.
+Created custom commands to reduce the lines of codes in some of the spec files.
+Saved baseUrl as an environment variable.
+Saved beforeEach command in the e2e.js file
